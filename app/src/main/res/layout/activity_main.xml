@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.navgnss.filemanager.ui.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/background"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="欢迎使用"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        />
+    <ProgressBar
+        android:layout_width="600dp"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_gravity="center_horizontal"
+        android:max="200"
+        android:progress="0"
+        android:visibility="visible"
+        android:maxHeight="80dp"
+        android:minHeight="80dp"
+        android:id="@+id/progressbar_mainactivity"/>
+</LinearLayout>
